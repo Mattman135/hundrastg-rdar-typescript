@@ -58,8 +58,8 @@ const CardComponent = ({ item }: CardComponentProps) => {
   // Basic fields
   const title = item["title"] ?? "Missing title"
   const imageUrl = "/DogParkIcon.jpg" // served from /public
-  const category =
-    item["category"] ?? item["categoryName"] ?? "Missing category"
+  //const category =
+    //item["category"] ?? item["categoryName"] ?? "Missing category"
 
   // Rating fields
   const totalScoreRaw = getNumberValue(item["totalScore"])
