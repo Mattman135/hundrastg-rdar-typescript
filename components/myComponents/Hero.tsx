@@ -131,7 +131,7 @@ const Hero = () => {
               <input
                 type="search"
                 required
-                placeholder="Sök..."
+                placeholder="Sök på stad..."
                 value={searchTerm}
                 onChange={handleInputChange}
               />

@@ -57,51 +57,60 @@ const PrivacyPolicy = () => {
           className="leading-relaxed whitespace-pre-wrap"
           style={{ fontFamily: "sans-serif" }}
         >
-          {`Last Updated: 2023-08-25
-
-Thank you for visiting ShipFast ("we," "us," or "our"). This Privacy Policy outlines how we collect, use, and protect your personal and non-personal information when you use our website located at https://shipfa.st (the "Website").
-
-By accessing or using the Website, you agree to the terms of this Privacy Policy. If you do not agree with the practices described in this policy, please do not use the Website.
-
-1. Information We Collect
-
-1.1 Personal Data
-
-We collect the following personal information from you:
-
-Name: We collect your name to personalize your experience and communicate with you effectively.
-Email: We collect your email address to send you important information regarding your orders, updates, and communication.
-Payment Information: We collect payment details to process your orders securely. However, we do not store your payment information on our servers. Payments are processed by trusted third-party payment processors.
-
-1.2 Non-Personal Data
-
-We may use web cookies and similar technologies to collect non-personal information such as your IP address, browser type, device information, and browsing patterns. This information helps us to enhance your browsing experience, analyze trends, and improve our services.
-
-2. Purpose of Data Collection
-
-We collect and use your personal data for the sole purpose of order processing. This includes processing your orders, sending order confirmations, providing customer support, and keeping you updated about the status of your orders.
-
-3. Data Sharing
-
-We do not share your personal data with any third parties except as required for order processing (e.g., sharing your information with payment processors). We do not sell, trade, or rent your personal information to others.
-
-4. Children's Privacy
-
-ShipFast is not intended for children under the age of 13. We do not knowingly collect personal information from children. If you are a parent or guardian and believe that your child has provided us with personal information, please contact us at the email address provided below.
-
-5. Updates to the Privacy Policy
-
-We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. Any updates will be posted on this page, and we may notify you via email about significant changes.
-
-6. Contact Information
-
-If you have any questions, concerns, or requests related to this Privacy Policy, you can contact us at:
-
-Email: marc@shipfa.st
-
-For all other inquiries, please visit our Contact Us page on the Website.
-
-By using ShipFast, you consent to the terms of this Privacy Policy.`}
+          {`Senast uppdaterad: 16 april 2026
+ 
+Integritetspolicy för Hundrastgård.se
+ 
+Denna integritetspolicy ("Policy") beskriver hur Hundrastgård.se på https://hundrastgård.se ("Webbplatsen") hanterar din integritet och data. Vi värdesätter din integritet och är engagerade i att skydda dina rättigheter.
+ 
+1. Introduktion
+ 
+Hundrastgård.se är en svensk webbplats utformad för att hjälpa användare att hitta information om hundskogar i Sverige. Denna policy förklarar vår policy angående insamling och användning av data.
+ 
+2. Insamling av användardata
+ 
+Hundrastgård.se samlar inte in någon personlig användardata. Vi kräver ingen personlig information som namn, e-postadress, telefonnummer eller någon annan identifierande information för att du ska kunna använda vår webbplats.
+ 
+3. Insamling av icke-personlig data
+ 
+Vi använder webkakor för att samla in icke-personlig data. Dessa kakor hjälper oss att förbättra webbplatsens funktionalitet och användarupplevelse. Kakorna identifierar dig inte personligt och kan inte användas för att spåra din identitet.
+ 
+4. Syfte med datainsamling
+ 
+Då vi inte samlar in personlig data, har vi ingen data att behandla för något specifikt syfte. Vår webbplats är utformad för att fungera utan att kräva någon personlig information från användarna.
+ 
+5. Datadelning
+ 
+Vi delar inte någon data med tredje parter. Då vi inte samlar in personlig data, finns det ingen data att dela.
+ 
+6. Barns integritet
+ 
+Hundrastgård.se samlar inte in någon data från barn eller andra användare. Vi kräver ingen åldersbekräftelse och vår webbplats är utformad för att vara tillgänglig för alla användare utan att samla in personlig information.
+ 
+7. Dina rättigheter
+ 
+Under svensk dataskyddslagstiftning har du rätt att:
+- Få bekräftelse på om vi behandlar data om dig
+- Få tillgång till data vi behandlar om dig
+- Begära rättelse av felaktig data
+- Begära radering av data under vissa omständigheter
+- Invända mot behandlingen av din data
+ 
+Då vi inte samlar in personlig data, är dessa rättigheter inte tillämpliga för vår webbplats.
+ 
+8. Säkerhet
+ 
+Vi är engagerade i att skydda din integritet. Vår webbplats använder standardsäkerhetsmåtgärder för att skydda mot obehörig åtkomst.
+ 
+9. Uppdateringar av integritetspolicyn
+ 
+Vi kan uppdatera denna policy från tid till annan. Ändringar träder i kraft omedelbar vid publicering på webbplatsen.
+ 
+10. Kontaktinformation
+ 
+Om du har frågor eller funderingar angående denna integritetspolicy, kontakta oss på hallbergmattis97@gmail.com.
+ 
+Tack för att du besöker Hundrastgård.se!`}
         </pre>
       </div>
     </main>

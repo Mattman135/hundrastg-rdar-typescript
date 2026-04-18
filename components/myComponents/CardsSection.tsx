@@ -76,7 +76,7 @@ const CardsSection = ({ items }: CardsSectionProps) => {
             />
           </svg>
         </button>
-        <span className="flex items-center text-lg font-semibold">
+        <span className="flex flex-row items-center text-lg font-semibold">
           Sida {dataToDisplay.length === 0 ? 0 : currentPage} av {totalPages}
         </span>
       </div>

@@ -100,11 +100,6 @@ const CardComponent = ({ item }: CardComponentProps) => {
           {title}
         </h2>
 
-        {/* Category */}
-        {category && (
-          <p className="text-sm text-base-content/60 break-words">{category}</p>
-        )}
-
         {/* Rating: stars + (reviewsCount) */}
         <div className="flex items-center gap-2 mt-1">
           <div className="flex items-center gap-0.5">

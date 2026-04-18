@@ -1,5 +1,5 @@
-import Header from "@/components/Header"
-import Footer from "@/components/Footer"
+import Header from "@/components/myComponents/Header"
+import Footer from "@/components/myComponents/Footer"
 import { createClient } from "@/libs/supabase/server"
 
 interface OpeningHours {
@@ -177,7 +177,7 @@ export default async function ItemDetailPage({ params }: ItemDetailPageProps) {
                       {foundItem.phone}
                     </a>
                   ) : (
-                    <span className="text-base-content/60">Nummer saknas</span>
+                    <span className="text-base-content/60">Telefonnummer saknas</span>
                   )}
                 </div>
 
@@ -203,18 +203,14 @@ export default async function ItemDetailPage({ params }: ItemDetailPageProps) {
                 <h2 className="text-base font-bold text-base-content mb-3">
                   Om {foundItem.title}
                 </h2>
-                <p className="text-sm text-base-content/70 leading-relaxed">
-                  {foundItem.title} är en plats för {foundItem.category}
+            
+
+                <blockquote className="mt-4 pl-4 border-l-4 border-primary/30 text-sm italic text-base-content/60 leading-relaxed">
+                  {foundItem.title}. 
                   {typeof totalScore === "number" && totalScore > 0
                     ? `, betygsatt ${totalScore.toFixed(1)}.`
                     : "."}
-                  {foundItem.phone ? ` Ring oss på ${foundItem.phone}` : ""}
-                  {fullAddress ? ` eller besök oss på ${fullAddress}.` : ""}
-                </p>
-
-                <blockquote className="mt-4 pl-4 border-l-4 border-primary/30 text-sm italic text-base-content/60 leading-relaxed">
-                  {foundItem.title}
-                  {foundItem.city ? `, ${foundItem.city}` : ""}. Hitta
+                   {" "}Hitta
                   öppettider, recensioner och kontaktuppgifter för{" "}
                   {foundItem.title}.
                 </blockquote>
@@ -231,9 +227,8 @@ export default async function ItemDetailPage({ params }: ItemDetailPageProps) {
                       Vilka är öppettiderna på {foundItem.title}?
                     </h3>
                     <p className="text-sm text-base-content/70 leading-relaxed">
-                      Ta reda på öppettiderna för {foundItem.title} så att du
-                      kan planera ditt besök. Se öppettider nedan för att
-                      säkerställa att du och din hund hinner njuta av
+                      Dubbelkolla öppettiderna nedan för {foundItem.title} så att du
+                      kan planera ditt besök så att du och din hund hinner njuta av
                       anläggningen.
                     </p>
                   </div>
@@ -263,11 +258,8 @@ export default async function ItemDetailPage({ params }: ItemDetailPageProps) {
                       Vilka faciliteter finns på {foundItem.title}?
                     </h3>
                     <p className="text-sm text-base-content/70 leading-relaxed">
-                      {foundItem.title} erbjuder ett antal faciliteter för att
+                      {foundItem.title} kan erbjuda olika faciliteter för att
                       göra ditt besök trevligare.
-                      {category
-                        ? ` Dessa inkluderar ${category} och mer.`
-                        : ""}{" "}
                       Kontakta parken för fullständig information om
                       tillgängliga faciliteter.
                     </p>
@@ -294,7 +286,7 @@ export default async function ItemDetailPage({ params }: ItemDetailPageProps) {
                       <tr key={label}>
                         <td className="py-1.5 text-base-content/70">{label}</td>
                         <td className="py-1.5 text-right font-medium text-base-content">
-                          {value || "Se webbplats eller kontakta parken"}
+                          {value || "Öppet dygnet runt"}
                         </td>
                       </tr>
                     ))}
@@ -302,26 +294,7 @@ export default async function ItemDetailPage({ params }: ItemDetailPageProps) {
                 </table>
               </div>
 
-              {/* ── Extra info / location summary ── */}
-              <div className="p-6">
-                <h2 className="text-base font-bold text-base-content mb-3">
-                  {foundItem.title} – Plats
-                </h2>
-                <p className="text-sm text-base-content/70 leading-relaxed">
-                  {foundItem.city && (
-                    <>
-                      {foundItem.city}
-                      {foundItem.countryCode
-                        ? `, ${foundItem.countryCode}`
-                        : ""}
-                      .{" "}
-                    </>
-                  )}
-                  Denna plats är en del av ett nätverk av parker och
-                  fritidsområden som gör det enklare att aktivera hundar och
-                  ägare i närområdet.
-                </p>
-              </div>
+             
             </div>
           </div>
 
