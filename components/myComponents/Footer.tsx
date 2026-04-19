@@ -34,7 +34,7 @@ const Footer = () => {
               {config.appDescription}
             </p>
             <p className="mt-3 text-sm text-base-content/60">
-              Copyright © {new Date().getFullYear()} - All rights reserved
+              Copyright © {new Date().getFullYear()}
             </p>
 
             <a

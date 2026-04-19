@@ -5,7 +5,7 @@ const config = {
   appName: "Hundrastgårdar i Sverige",
   // REQUIRED: a short description of your app for SEO tags (can be overwritten)
   appDescription:
-    "Hitta hundrastgårdar i hela Sverige genom att söka efter din stad. Få relevant information om varje rastgård så att du enkelt kan hitta en plats som passar dig och din hund. Sveriges enda webbkatalog för hundrastgårdar - skapad för att göra det enkelt för hundägare att rasta sina hundar.",
+    "Sveriges enda webbkatalog hundrastgårdar för att hitta hundrastgårdar i Sverige - skapad för att göra det enkelt för hundägare att rasta sina hundar.",
   // REQUIRED (no https://, not trialing slash at the end, just the naked domain)
   domainName: "shipfa.st",
   crisp: {
